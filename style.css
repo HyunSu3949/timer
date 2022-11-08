@@ -1,0 +1,126 @@
+article {
+  position: absolute;
+  width: 400px;
+  height: 360px;
+  left: 440px;
+  top: 180px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+
+h1 {
+  margin-top: 48px;
+  margin-bottom: 23px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+.line {
+  margin: 0 auto;
+  width: 312px;
+  height: 1px;
+  left: 484px;
+  top: 281px;
+  background: #3d538a;
+  margin-bottom: 33px;
+}
+input {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: 1px solid #354971;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.time {
+  margin: 0 auto;
+  display: flex;
+  width: 284px;
+  height: 98px;
+  margin-bottom: 40px;
+}
+
+.time div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a5b6ee;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+.colone div {
+  width: 6px;
+  height: 6px;
+  background: #8198d0;
+  border-radius: 50%;
+  margin: 0 8px;
+  margin-bottom: 14px;
+}
+.colone div:first-child {
+  margin-top: 44px;
+}
+
+.start {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 112px;
+  height: 48px;
+  background: #5180ff;
+  border-radius: 50px;
+  border: none;
+  margin-right: 12px;
+}
+.start img {
+  width: 11px;
+  height: 17px;
+}
+
+.reset {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 112px;
+  height: 48px;
+  background: #fb7099;
+  border-radius: 50px;
+  border: none;
+}
+.reset img {
+  width: 13px;
+  height: 14px;
+}
+.btns {
+  display: flex;
+  margin: 0 auto;
+  width: 236px;
+  height: 48px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button img {
+  margin-right: 6px;
+}
